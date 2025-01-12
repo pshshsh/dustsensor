@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Custom text styles -->
+    <style name="DustLevelText">
+        <item name="android:textColor">@color/dustTextColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <style name="AlarmsText">
+        <item name="android:textColor">@color/alarmTextColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">30dp</item>
+    </style>
+
+    <style name="SetAlarmButton">
+        <item name="android:backgroundTint">@color/buttonColor</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+</resources>

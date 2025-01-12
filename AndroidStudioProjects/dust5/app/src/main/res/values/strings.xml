@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dust5</string>
+    <string name="dust_level">실시간 미세먼지 농도</string>
+    <string name="alarms">알람 설정</string>
+    <string name="set_alarm">알람 설정</string>
+    <string name="data_fetch_error">데이터를 받아오지 못했습니다</string>
+</resources>

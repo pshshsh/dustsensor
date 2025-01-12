@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dustLevelTextView"
+        style="@style/DustLevelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="실시간 미세먼지 농도"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/alarmsTextView"
+        style="@style/AlarmsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람 설정"
+        android:layout_below="@id/dustLevelTextView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/setAlarmButton"
+        style="@style/SetAlarmButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람 설정"
+        android:layout_below="@id/alarmsTextView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
